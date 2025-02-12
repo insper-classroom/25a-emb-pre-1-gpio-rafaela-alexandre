@@ -25,13 +25,13 @@ int main() {
       printf("Botao Green\n");
       while (!gpio_get(BTN_PIN_G)) {
         sleep_ms(10);
-      };
+      }
     }
     if (!gpio_get(BTN_PIN_B)) {
       printf("Botao Azul\n");
       while (!gpio_get(BTN_PIN_B)) {
         sleep_ms(10);
-      };
+      }
     }
   }
 }
