@@ -22,13 +22,13 @@ int main() {
   while (true) {
 
     if (!gpio_get(BTN_PIN_G)) {
-      printf("Botao Green\n");
+      printf("Botao 1\n");
       while (!gpio_get(BTN_PIN_G)) {
         sleep_ms(10);
       }
     }
     if (!gpio_get(BTN_PIN_B)) {
-      printf("Botao Azul\n");
+      printf("Botao 2\n");
       while (!gpio_get(BTN_PIN_B)) {
         sleep_ms(10);
       }
